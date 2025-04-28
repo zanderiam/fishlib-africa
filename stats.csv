@@ -1,0 +1,14 @@
+stat,n
+speciesTotal,3569
+speciesValid,3564
+speciesSynonyms,5
+genbankVersion,265
+date,23 Mar 2025
+uniqueQueries,3601
+maxBatchLength,1500
+numberBatches,277
+cores,2
+batchesPerCore,139
+maxRecordsByBatch,7326
+totalRecordsGenbank,180490
+totalRecordsBold,15922

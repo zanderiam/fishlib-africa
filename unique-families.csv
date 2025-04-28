@@ -1,0 +1,113 @@
+"speciesName","status","fbSpecCode","validName","class","order","family","genus","commonName","commonSpecies","Fresh","Brack"
+"Acipenser sturio","accepted name",2066,"Acipenser sturio","Chondrostei","Acipenseriformes","Acipenseridae","Acipenser","Sturgeon",TRUE,1,1
+"Alestes ansorgii","accepted name",66488,"Alestes ansorgii","Teleostei","Characiformes","Alestidae","Alestes",NA,TRUE,1,0
+"Alosa algeriensis","accepted name",65105,"Alosa algeriensis","Teleostei","Clupeiformes","Alosidae","Alosa","North African shad",TRUE,1,1
+"Ambassis ambassis","accepted name",61467,"Ambassis ambassis","Teleostei","Ovalentaria/misc","Ambassidae","Ambassis","Commerson's glassy",TRUE,1,1
+"Amphilius atesuensis","accepted name",2448,"Amphilius atesuensis","Teleostei","Siluriformes","Amphiliidae","Amphilius",NA,TRUE,1,0
+"Ctenopoma acutirostre","accepted name",10029,"Ctenopoma acutirostre","Teleostei","Anabantiformes","Anabantidae","Ctenopoma","Spotted ctenopoma",TRUE,1,0
+"Ancharius fuscus","accepted name",9645,"Ancharius fuscus","Teleostei","Siluriformes","Anchariidae","Ancharius",NA,TRUE,1,0
+"Anguilla anguilla","accepted name",35,"Anguilla anguilla","Teleostei","Anguilliformes","Anguillidae","Anguilla","European eel",TRUE,1,1
+"Aphaniops dispar","accepted name",4813,"Aphaniops dispar","Teleostei","Cyprinodontiformes","Aphaniidae","Aphaniops","Arabian pupfish",TRUE,1,1
+"Pachypanchax arnoulti","accepted name",63023,"Pachypanchax arnoulti","Teleostei","Cyprinodontiformes","Aplocheilidae","Pachypanchax",NA,TRUE,1,0
+"Fibramia lateralis","accepted name",5761,"Fibramia lateralis","Teleostei","Kurtiformes","Apogonidae","Fibramia","Humpback cardinal",TRUE,1,1
+"Heterotis niloticus","accepted name",2388,"Heterotis niloticus","Teleostei","Osteoglossiformes","Arapaimidae","Heterotis","African bonytongue",TRUE,1,0
+"Arius africanus","accepted name",1284,"Arius africanus","Teleostei","Siluriformes","Ariidae","Arius","African sea catfish",TRUE,1,1
+"Atherina boyeri","accepted name",1696,"Atherina boyeri","Teleostei","Atheriniformes","Atherinidae","Atherina","Big-scale sand smelt",TRUE,1,1
+"Austroglanis barnardi","accepted name",6188,"Austroglanis barnardi","Teleostei","Siluriformes","Austroglanididae","Austroglanis","Barnard's rock-catfish",TRUE,1,0
+"Bagrus bajad","accepted name",5462,"Bagrus bajad","Teleostei","Siluriformes","Bagridae","Bagrus","Bayad",TRUE,1,0
+"Bedotia albomarginata","accepted name",62594,"Bedotia albomarginata","Teleostei","Atheriniformes","Bedotiidae","Bedotia",NA,TRUE,1,0
+"Tylosurus melanotus","accepted name",1317,"Tylosurus melanotus","Teleostei","Beloniformes","Belonidae","Tylosurus","Keel-jawed needle fish",TRUE,1,1
+"Alloblennius jugularis","accepted name",6046,"Alloblennius jugularis","Teleostei","Blenniiformes","Blenniidae","Alloblennius","Jugular blenny",TRUE,1,1
+"Bostrychus africanus","accepted name",10009,"Bostrychus africanus","Teleostei","Gobiiformes","Butidae","Bostrychus",NA,TRUE,1,1
+"Caranx fischeri","accepted name",63514,"Caranx fischeri","Teleostei","Carangiformes","Carangidae","Caranx","Longfin crevalle jack",TRUE,1,1
+"Carcharhinus leucas","accepted name",873,"Carcharhinus leucas","Elasmobranchii","Carcharhiniformes","Carcharhinidae","Carcharhinus","Bull shark",TRUE,1,1
+"Lepomis cyanellus","accepted name",3371,"Lepomis cyanellus","Teleostei","Centrarchiformes","Centrarchidae","Lepomis","Green sunfish",TRUE,1,0
+"Chanos chanos","accepted name",80,"Chanos chanos","Teleostei","Gonorynchiformes","Chanidae","Chanos","Milkfish",TRUE,1,1
+"Channa maculata","accepted name",8701,"Channa maculata","Teleostei","Anabantiformes","Channidae","Channa","Blotched snakehead",TRUE,1,0
+"Astyanax orthodus","accepted name",52960,"Astyanax orthodus","Teleostei","Characiformes","Characidae","Astyanax",NA,TRUE,1,0
+"Abactochromis labrosus","accepted name",2347,"Abactochromis labrosus","Teleostei","Cichliformes","Cichlidae","Abactochromis",NA,TRUE,1,0
+"Citharidium ansorgii","accepted name",5266,"Citharidium ansorgii","Teleostei","Characiformes","Citharinidae","Citharidium",NA,TRUE,1,0
+"Bathyclarias atribranchus","accepted name",8382,"Bathyclarias atribranchus","Teleostei","Siluriformes","Clariidae","Bathyclarias",NA,TRUE,1,0
+"Amarginops platus","accepted name",9263,"Amarginops platus","Teleostei","Siluriformes","Claroteidae","Amarginops",NA,TRUE,1,0
+"Cobitis maroccana","accepted name",25873,"Cobitis maroccana","Teleostei","Cypriniformes","Cobitidae","Cobitis",NA,TRUE,1,0
+"Citharichthys stampflii","accepted name",4942,"Citharichthys stampflii","Teleostei","Pleuronectiformes","Cyclopsettidae","Citharichthys","Smooth flounder",TRUE,1,1
+"Cynoglossus lingua","accepted name",8238,"Cynoglossus lingua","Teleostei","Pleuronectiformes","Cynoglossidae","Cynoglossus","Long tongue sole",TRUE,1,1
+"Acapoeta tanganicae","accepted name",11272,"Acapoeta tanganicae","Teleostei","Cypriniformes","Cyprinidae","Acapoeta",NA,TRUE,1,0
+"Chelaethiops bibie","accepted name",5270,"Chelaethiops bibie","Teleostei","Cypriniformes","Danionidae","Chelaethiops","Lake Turkana sardine",TRUE,1,0
+"Brevitrygon imbricata","accepted name",13150,"Brevitrygon imbricata","Elasmobranchii","Myliobatiformes","Dasyatidae","Brevitrygon","Coromandel whipray",TRUE,1,1
+"Denticeps clupeoides","accepted name",4527,"Denticeps clupeoides","Teleostei","Clupeiformes","Denticipitidae","Denticeps","Denticle herring",TRUE,1,0
+"Belonophago hutsebouti","accepted name",11171,"Belonophago hutsebouti","Teleostei","Characiformes","Distichodontidae","Belonophago",NA,TRUE,1,0
+"Congothrissa gossei","accepted name",1555,"Congothrissa gossei","Teleostei","Clupeiformes","Dorosomatidae","Congothrissa","Smoothbelly pellonuline",TRUE,1,0
+"Drepane punctata","accepted name",454,"Drepane punctata","Teleostei","Acanthuriformes","Drepaneidae","Drepane","Spotted sicklefish",TRUE,1,1
+"Dussumieria acuta","accepted name",1453,"Dussumieria acuta","Teleostei","Clupeiformes","Dussumieriidae","Dussumieria","Rainbow sardine",TRUE,1,1
+"Gilchristella aestuaria","accepted name",1556,"Gilchristella aestuaria","Teleostei","Clupeiformes","Ehiravidae","Gilchristella","Gilchrist's round herring",TRUE,1,1
+"Dormitator lebretonis","accepted name",10008,"Dormitator lebretonis","Teleostei","Gobiiformes","Eleotridae","Dormitator",NA,TRUE,1,1
+"Elops lacerta","accepted name",4959,"Elops lacerta","Teleostei","Elopiformes","Elopidae","Elops","West African ladyfish",TRUE,1,1
+"Coilia dussumieri","accepted name",625,"Coilia dussumieri","Teleostei","Clupeiformes","Engraulidae","Coilia","Goldspotted grenadier anchovy",TRUE,1,1
+"Esox lucius","accepted name",258,"Esox lucius","Teleostei","Esociformes","Esocidae","Esox","Northern pike",TRUE,1,1
+"Galaxias zebratus","accepted name",11050,"Galaxias zebratus","Teleostei","Galaxiiformes","Galaxiidae","Galaxias","Cape Galaxias",TRUE,1,0
+"Gasterosteus aculeatus","accepted name",2420,"Gasterosteus aculeatus","Teleostei","Perciformes/Gasterosteoidei","Gasterosteidae","Gasterosteus","Three-spined stickleback",TRUE,1,1
+"Eucinostomus melanopterus","accepted name",1052,"Eucinostomus melanopterus","Teleostei","Eupercaria/misc","Gerreidae","Eucinostomus","Flagfin mojarra",TRUE,1,1
+"Acentrogobius caninus","accepted name",4894,"Acentrogobius caninus","Teleostei","Gobiiformes","Gobiidae","Acentrogobius","Tropical sand goby",TRUE,1,1
+"Gobio gobio","accepted name",4478,"Gobio gobio","Teleostei","Cypriniformes","Gobionidae","Gobio","Gudgeon",TRUE,1,1
+"Gymnarchus niloticus","accepted name",4519,"Gymnarchus niloticus","Teleostei","Osteoglossiformes","Gymnarchidae","Gymnarchus","Aba",TRUE,1,0
+"Plectorhinchus gibbosus","accepted name",6366,"Plectorhinchus gibbosus","Teleostei","Eupercaria/misc","Haemulidae","Plectorhinchus","Harry hotlips",TRUE,1,1
+"Hyporhamphus capensis","accepted name",7711,"Hyporhamphus capensis","Teleostei","Beloniformes","Hemiramphidae","Hyporhamphus","Cape halfbeak",TRUE,1,1
+"Hepsetus cuvieri","accepted name",67377,"Hepsetus cuvieri","Teleostei","Characiformes","Hepsetidae","Hepsetus","Southern African Pike",TRUE,1,0
+"Ictalurus punctatus","accepted name",290,"Ictalurus punctatus","Teleostei","Siluriformes","Ictaluridae","Ictalurus","Channel catfish",TRUE,1,0
+"Cromeria nilotica","accepted name",5225,"Cromeria nilotica","Teleostei","Gonorynchiformes","Kneriidae","Cromeria","Naked shellear",TRUE,1,0
+"Gobitrichinotus arnoulti","accepted name",62106,"Gobitrichinotus arnoulti","Teleostei","Gobiiformes","Kraemeriidae","Gobitrichinotus",NA,TRUE,1,0
+"Kuhlia caudavittata","accepted name",9905,"Kuhlia caudavittata","Teleostei","Centrarchiformes","Kuhliidae","Kuhlia",NA,TRUE,1,1
+"Lates angustifrons","accepted name",4497,"Lates angustifrons","Teleostei","Carangaria/misc","Latidae","Lates","Tanganyika lates",TRUE,1,0
+"Leiognathus ruconius","accepted name",4811,"Deveximentum ruconius","Teleostei","Acanthuriformes","Leiognathidae","Deveximentum","Deep pugnose ponyfish",TRUE,1,1
+"Abramis brama","accepted name",268,"Abramis brama","Teleostei","Cypriniformes","Leuciscidae","Abramis","Freshwater bream",TRUE,1,1
+"Lutjanus argentimaculatus","accepted name",1407,"Lutjanus argentimaculatus","Teleostei","Eupercaria/misc","Lutjanidae","Lutjanus","Mangrove red snapper",TRUE,1,1
+"Malapterurus barbatus","accepted name",62737,"Malapterurus barbatus","Teleostei","Siluriformes","Malapteruridae","Malapterurus",NA,TRUE,1,0
+"Mastacembelus albomaculatus","accepted name",10055,"Mastacembelus albomaculatus","Teleostei","Synbranchiformes","Mastacembelidae","Mastacembelus",NA,TRUE,1,0
+"Megalops atlanticus","accepted name",1079,"Megalops atlanticus","Teleostei","Elopiformes","Megalopidae","Megalops","Tarpon",TRUE,1,1
+"Parioglossus multiradiatus","accepted name",62192,"Parioglossus multiradiatus","Teleostei","Gobiiformes","Microdesmidae","Parioglossus",NA,TRUE,1,1
+"Typhleotris madagascariensis","accepted name",10026,"Typhleotris madagascariensis","Teleostei","Gobiiformes","Milyeringidae","Typhleotris",NA,TRUE,1,0
+"Acanthocleithron chapini","accepted name",9474,"Acanthocleithron chapini","Teleostei","Siluriformes","Mochokidae","Acanthocleithron",NA,TRUE,1,0
+"Monodactylus argenteus","accepted name",5807,"Monodactylus argenteus","Teleostei","Eupercaria/misc","Monodactylidae","Monodactylus","Silver moony",TRUE,1,1
+"Boulengeromyrus knoepffleri","accepted name",10825,"Boulengeromyrus knoepffleri","Teleostei","Osteoglossiformes","Mormyridae","Boulengeromyrus",NA,TRUE,1,0
+"Dicentrarchus labrax","accepted name",63,"Dicentrarchus labrax","Teleostei","Eupercaria/misc","Moronidae","Dicentrarchus","European seabass",TRUE,1,1
+"Agonostomus catalai","accepted name",61407,"Agonostomus catalai","Teleostei","Mugiliformes","Mugilidae","Agonostomus","Comoro mullet",TRUE,1,1
+"Upeneus guttatus","accepted name",62425,"Upeneus guttatus","Teleostei","Mulliformes","Mullidae","Upeneus","Two-tone goatfish",TRUE,1,0
+"Muraenesox cinereus","accepted name",298,"Muraenesox cinereus","Teleostei","Anguilliformes","Muraenesocidae","Muraenesox","Daggertooth pike conger",TRUE,1,1
+"Echidna leucotaenia","accepted name",6486,"Echidna leucotaenia","Teleostei","Anguilliformes","Muraenidae","Echidna","Whiteface moray",TRUE,1,1
+"Aphyosemion ahli","accepted name",9707,"Aphyosemion ahli","Teleostei","Cyprinodontiformes","Nothobranchiidae","Aphyosemion",NA,TRUE,1,0
+"Papyrocranus afer","accepted name",5063,"Papyrocranus afer","Teleostei","Osteoglossiformes","Notopteridae","Papyrocranus","Reticulate knifefish",TRUE,1,0
+"Lamnostoma orientale","accepted name",11728,"Lamnostoma orientale","Teleostei","Anguilliformes","Ophichthidae","Lamnostoma","Oriental worm-eel",TRUE,1,1
+"Macropodus opercularis","accepted name",4777,"Macropodus opercularis","Teleostei","Anabantiformes","Osphronemidae","Macropodus","Paradisefish",TRUE,1,1
+"Periophthalmodon schlosseri","accepted name",8414,"Periophthalmodon schlosseri","Teleostei","Gobiiformes","Oxudercidae","Periophthalmodon","Giant mudskipper",TRUE,1,1
+"Pantanodon madagascariensis","accepted name",9651,"Pantanodon madagascariensis","Teleostei","Cyprinodontiformes","Pantanodontidae","Pantanodon",NA,TRUE,1,1
+"Pantodon buchholzi","accepted name",2075,"Pantodon buchholzi","Teleostei","Osteoglossiformes","Pantodontidae","Pantodon","Freshwater butterflyfish",TRUE,1,0
+"Perca fluviatilis","accepted name",358,"Perca fluviatilis","Teleostei","Perciformes/Percoidei","Percidae","Perca","European perch",TRUE,1,1
+"Petromyzon marinus","accepted name",2530,"Petromyzon marinus","Petromyzonti","Petromyzontiformes","Petromyzontidae","Petromyzon","Sea lamprey",TRUE,1,1
+"Phractolaemus ansorgii","accepted name",5226,"Phractolaemus ansorgii","Teleostei","Gonorynchiformes","Phractolaemidae","Phractolaemus","Hingemouth",TRUE,1,0
+"Platichthys flesus","accepted name",1341,"Platichthys flesus","Teleostei","Pleuronectiformes","Pleuronectidae","Platichthys","European flounder",TRUE,1,1
+"Plotosus limbatus","accepted name",5516,"Plotosus limbatus","Teleostei","Siluriformes","Plotosidae","Plotosus","Darkfin eel catfish",TRUE,1,1
+"Gambusia affinis","accepted name",3215,"Gambusia affinis","Teleostei","Cyprinodontiformes","Poeciliidae","Gambusia","Mosquitofish",TRUE,1,1
+"Afronandus sheljuzhkoi","accepted name",9916,"Afronandus sheljuzhkoi","Teleostei","Ovalentaria/misc","Polycentridae","Afronandus","Fourspine leaffish",TRUE,1,0
+"Polydactylus quadrifilis","accepted name",5002,"Polydactylus quadrifilis","Teleostei","Carangaria/misc","Polynemidae","Polydactylus","Giant African threadfin",TRUE,1,1
+"Erpetoichthys calabaricus","accepted name",4830,"Erpetoichthys calabaricus","Cladistii","Polypteriformes","Polypteridae","Erpetoichthys","Reedfish",TRUE,1,1
+"Neopomacentrus taeniurus","accepted name",5705,"Neopomacentrus taeniurus","Teleostei","Ovalentaria/misc","Pomacentridae","Neopomacentrus","Freshwater demoiselle",TRUE,1,1
+"Anoxypristis cuspidata","accepted name",8211,"Anoxypristis cuspidata","Elasmobranchii","Rhinopristiformes","Pristidae","Anoxypristis","Pointed sawfish",TRUE,1,1
+"Ilisha africana","accepted name",1625,"Ilisha africana","Teleostei","Clupeiformes","Pristigasteridae","Ilisha","West African ilisha",TRUE,1,1
+"Aplocheilichthys spilauchen","accepted name",2465,"Aplocheilichthys spilauchen","Teleostei","Cyprinodontiformes","Procatopodidae","Aplocheilichthys","Banded lampeye",TRUE,1,1
+"Protopterus aethiopicus","accepted name",8734,"Protopterus aethiopicus","Dipneusti","Ceratodontiformes","Protopteridae","Protopterus","Marbled lungfish",TRUE,1,0
+"Hucho hucho","accepted name",4664,"Hucho hucho","Teleostei","Salmoniformes","Salmonidae","Hucho","Huchen",TRUE,1,0
+"Scatophagus tetracanthus","accepted name",7915,"Scatophagus tetracanthus","Teleostei","Acanthuriformes","Scatophagidae","Scatophagus","Scatty",TRUE,1,1
+"Irvineia orientalis","accepted name",9368,"Irvineia orientalis","Teleostei","Siluriformes","Schilbeidae","Irvineia",NA,TRUE,1,0
+"Argyrosomus hololepidotus","accepted name",419,"Argyrosomus hololepidotus","Teleostei","Eupercaria/misc","Sciaenidae","Argyrosomus","Southern meagre",TRUE,1,1
+"Silurus glanis","accepted name",289,"Silurus glanis","Teleostei","Siluriformes","Siluridae","Silurus","Wels catfish",TRUE,1,1
+"Brachirus orientalis","accepted name",8312,"Brachirus orientalis","Teleostei","Pleuronectiformes","Soleidae","Brachirus","Oriental sole",TRUE,1,1
+"Acanthopagrus berda","accepted name",5526,"Acanthopagrus berda","Teleostei","Eupercaria/misc","Sparidae","Acanthopagrus","Goldsilk seabream",TRUE,1,1
+"Monopterus boueti","accepted name",9895,"Monopterus boueti","Teleostei","Synbranchiformes","Synbranchidae","Monopterus","Liberian swamp eel",TRUE,1,0
+"Enneacampus ansorgii","accepted name",9889,"Enneacampus ansorgii","Teleostei","Syngnathiformes","Syngnathidae","Enneacampus",NA,TRUE,1,1
+"Tanichthys albonubes","accepted name",4758,"Tanichthys albonubes","Teleostei","Cypriniformes","Tanichthyidae","Tanichthys","White cloud mountain minnow",TRUE,1,0
+"Mesopristes elongatus","accepted name",7944,"Mesopristes elongatus","Teleostei","Centrarchiformes","Terapontidae","Mesopristes","Plain terapon",TRUE,1,1
+"Chelonodontops patoca","accepted name",6610,"Chelonodontops patoca","Teleostei","Tetraodontiformes","Tetraodontidae","Chelonodontops","Milkspotted puffer",TRUE,1,1
+"Tinca tinca","accepted name",269,"Tinca tinca","Teleostei","Cypriniformes","Tincidae","Tinca","Tench",TRUE,1,1
+"Ctenopharyngodon idella","accepted name",79,"Ctenopharyngodon idella","Teleostei","Cypriniformes","Xenocyprididae","Ctenopharyngodon","Grass carp",TRUE,1,1
+"Zenarchopterus dispar","accepted name",9648,"Zenarchopterus dispar","Teleostei","Beloniformes","Zenarchopteridae","Zenarchopterus","Feathered river-garfish",TRUE,1,1

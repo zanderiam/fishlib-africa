@@ -1,0 +1,43 @@
+---
+title: "Reference library coverage report"
+author: "Alexander Hill"
+date: "`r format(Sys.time(), '%d %B %Y')`"
+output: github_document
+---
+
+##### Methods and description
+This document describes the contents of the African freshwater fish reference library, generated from public databases. 
+The document is a dynamic knitr document and can be updated quickly using the Makefile in `scripts/`.
+A list of species from the UK was generated from three sources: GBIF, FishBase, and the Water Framework Directive list of transitional species.
+This list was filtered to identify synonyms and duplicates, and annotated with FishBase taxonomic classification and FishBase common names.
+
+The search was performed on the NCBI nucleotide and BOLD sequences databases. 
+Because of inconsistencies in how researchers annotate their GenBank submissions and the differing internal coverage of primer pairs for particular gene fragments, we performed a search requesting mitochondrial DNA using multiple search relevant search terms (COI, 12S, 16S, rRNA, ribosomal, cytb, CO1, cox1, cytochrome, subunit, COB, CYB, mitochondrial, mitochondrion).
+Then we pulled out fragments of interest using a hidden Markov model. This enabled us to have greater confidence that useful sequences had not been missed.
+For the resulting sequences we then tabulate all their metadata from GenBank in order to allow us the capability to later tailor a custom reference library according to any criteria required (e.g. must have reference specimen or locality data etc).
+
+```{r load_libs, include=FALSE}
+# load up libs
+library(dplyr)
+library(tidyr)
+library(stringr)
+library(knitr)
+library(here)
+
+# load up the data
+csv_file <- "fasta/references.12s.evans-Ac.cleaned.v265.csv"
+data <- read.csv(csv_file)
+
+# Filter relevant columns
+data <- data %>% select(sciNameValid, metabarcode)
+
+# Calculate coverage metrics
+coverage_metrics <- data %>%
+  group_by(metabarcode) %>%
+  summarise(
+    total_sequences = n(),
+    unique_species = n_distinct(sciNameValid)
+  )
+
+# Print the coverage metrics
+kable(coverage_metrics, caption = "Coverage Metrics for the CSV File")

@@ -1,0 +1,94 @@
+#!/usr/bin/env Rscript
+# script to quality control the reference libraries and identify erroneous sequences.
+
+# start timer 
+start_time <- Sys.time()
+
+# load functions and libs
+source(here::here("scripts","load-libs.R"))
+source(here::here("scripts","references-load-local.R"))
+source(here::here("scripts","references-clean.R"))
+library(progress)
+
+# get args
+option_list <- list( 
+  make_option(c("-t","--threads"), type="numeric"),
+  make_option(c("-v","--verbose"), type="character")
+)
+
+# set args
+opt <- parse_args(OptionParser(option_list=option_list, add_help_option=FALSE))
+
+#opt <- NULL
+#opt$threads <- 1
+#opt$verbose <- "true"
+
+# load stats
+stats <- suppressMessages(read_csv(here("reports","stats.csv")))
+gb.version <- stats %>% filter(stat == "genbankVersion") %>% pull(n)
+
+# message 
+writeLines("\nGenerating phylogenetic trees, may take several hours ...")
+
+# set cores
+cores <- opt$threads
+
+# make a copy so don't have to reload orig
+reflib <- reflib.cleaned
+
+# get the prefixes 
+prefixes <- reflib.cleaned %>% select(starts_with("nucleotidesFrag")) %>% names() %>% str_replace_all("nucleotidesFrag\\.", "")
+
+# initialize progress bar for tree generation
+pb <- progress_bar$new(
+  format = "  [:bar] :percent in :elapsed",
+  total = length(prefixes),
+  clear = FALSE
+)
+
+# subset each marker
+reflibs.sub <- mcmapply(function(x) {
+  result <- subset_nucs(pref = x, df = reflib)
+  print(paste("subset_nucs result length for prefix", x, ":", length(result)))
+  return(result)
+}, prefixes, SIMPLIFY = FALSE, USE.NAMES = TRUE, mc.cores = cores)
+
+# collapse dataframe by haps-per-species, annotate with number haps
+reflibs.haps <- mcmapply(function(x) {
+  result <- haps2fas(df = x)
+  print(paste("haps2fas result length:", length(result)))
+  return(result)
+}, reflibs.sub, SIMPLIFY = FALSE, USE.NAMES = TRUE, mc.cores = cores)
+
+# convert to fasta
+reflibs.fas <- mcmapply(function(x) {
+  result <- tab2fas(df = x, seqcol = "nucleotidesFrag", namecol = "noms")
+  print(paste("tab2fas result length:", length(result)))
+  return(result)
+}, reflibs.haps, SIMPLIFY = FALSE, USE.NAMES = TRUE, mc.cores = cores)
+
+# make temp output dir
+tmp.path <- paste0("qc_v", gb.version, "_", paste(month(ymd(Sys.Date()), label = TRUE), year(ymd(Sys.Date())), sep = "-"))
+if (!dir.exists(here("temp", tmp.path))) {
+  dir.create(here("temp", tmp.path))
+}
+
+# run phylo with progress bar
+trs.list <- mapply(function(x, y) {
+  pb$tick()  # Update the progress bar
+  result <- phylogenize(dir = tmp.path, fas = x, prefix = y, verbose = opt$verbose)
+  print(paste("phylogenize result length for prefix", y, ":", length(result)))
+  return(result)
+}, reflibs.fas, prefixes, SIMPLIFY = FALSE, USE.NAMES = TRUE)
+
+# plot the trees in a temp dir
+mcmapply(function(x, y, z) {
+  result <- plot_trees(tr = x, df = y, prefix = z, version = gb.version)
+  print(paste("plot_trees result length for prefix", z, ":", length(result)))
+  return(result)
+}, trs.list, reflibs.haps, prefixes, SIMPLIFY = FALSE, USE.NAMES = TRUE, mc.cores = cores)
+
+end_time <- Sys.time()
+end_time - start_time
+
+writeLines("\nPhylogenetic trees have been generated, PDFs are available in 'reports/qc_GBVERSION_MONTH-YEAR'")
