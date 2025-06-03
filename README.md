@@ -4,7 +4,7 @@
 
 Based the original meta-fish-lib pipeline developed by: Collins, R.A., Trauzzi, G., Maltby, K.M., Gibson, T.I., Ratcliffe, F.C., Hallam, J., Rainbird, S., Maclaine, J., Henderson, P.A., Sims, D.W., Mariani, S. & Genner, M.J. (2021). Meta-Fish-Lib: A generalised, dynamic DNA reference library pipeline for metabarcoding of fishes. _Journal of Fish Biology_. [https://doi.org/10.1111/jfb.14852](https://doi.org/10.1111/jfb.14852).
 
-![SeaDNA Logo](assets/logo.svg)
+
 
 This repository hosts a comprehensive multi-locus mitochondrial DNA reference library dataset for freshwater fish species of Africa, derived from the [NCBI GenBank](https://www.ncbi.nlm.nih.gov/nucleotide) and [Barcode of Life BOLD](http://www.boldsystems.org/index.php) databases. The dataset includes freshwater species, and can be employed in a variety of applications. e.g. DNA barcoding of human food products using full COI barcodes, to metabarcoding of gut or environmental samples using fragments of 12S. The library will be updated with each new GenBank release. Both native and introduced African freshwater fish species are included. A species coverage report for all primer sets can be found at [assets/reports-tables.md](assets/reports-tables.md). This African reference library is curated and ready-to-use, but the code provided here can easily generate a new reference library for a different location (see [FAQ](#FAQ)).
 
@@ -18,15 +18,12 @@ In addition to providing quality controlled and curated fish references, this re
 * Quick - the final reference library can be downloaded onto your computer in just a few seconds with only two packages loaded and eight lines of R code ([below](#retrieve-latest-reference-library)). Generating this reference library from scratch ([below](#bash-terminal)) takes a couple of hours, with the phylogenetic quality control steps completing overnight.
 * Customisable - by forking or cloning the repository, custom modifications can be made, e.g. excluding particular species, making taxonomic changes, or using a completely different list of species.
 * Self contained - to recreate the reference libraries, all code and R package versions are found within in this self contained project, courtesy of [renv](https://rstudio.github.io/renv/articles/renv.html). This means less risk of clashing installations or broken code when packages and R versions upgrade.
-* Citable - DOIs are issued with each new GenBank release.
 
-This README outlines the contents of the repository and a brief description of the workflow involved in creating/updating a metabarcoding reference library, as well instructions to simply access the current data immediately. If an error is apparent, raise a ticket in [Issues](https://github.com/genner-lab/meta-fish-lib/issues) or submit a pull request.
 
-The work is part of the NERC funded [SeaDNA Project](https://twitter.com/SeaDNAproject), and should be cited using version appropriate DOIs that are found in [Releases](https://github.com/genner-lab/meta-fish-lib/releases), or the Collins et al. (2021) _Journal of Fish Biology_ article ([https://doi.org/10.1111/jfb.14852](https://doi.org/10.1111/jfb.14852)) describing the software.
 
 ### TL;DR (give me the data)
 
-If you require simply the UK reference library for immediate use, it can be downloaded directly using the R code below, and converted into FASTA and CSV formats for any of the available primer sets in Table 1. I will endeavour to keep up-to-date with GenBank, but if hasn't been updated, email me.
+If you require simply the reference library for immediate use, it can be downloaded directly using the R code below, and converted into FASTA and CSV formats for any of the available primer sets in Table 1. I will endeavour to keep up-to-date with GenBank, but if hasn't been updated, email me.
 
 ##### Retrieve latest reference library:
 
