@@ -1,4 +1,4 @@
-[![DOI](https://zenodo.org/badge/327435617.svg)](https://zenodo.org/badge/latestdoi/327435617)
+
 
 # Fish-Lib-Africa: A generalised, dynamic DNA reference library for metabarcoding of African freshwater fishes
 
