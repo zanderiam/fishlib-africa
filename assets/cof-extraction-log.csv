@@ -1,0 +1,82 @@
+entry,cofValid,synonyms,queried,chosenReason
+Cyprinus brama,Abramis brama orientalis,Abramis brama; Cyprinus brama,Abramis brama orientalis,fallback_max_valids
+Haplochilichthys stuhlmanni,Aliteranodon stuhlmanni,Aplocheilichthys stuhlmanni; Pantanodon stuhlmanni; Haplochilichthys stuhlmanni,Aliteranodon stuhlmanni,matched_blockValid
+Phoxinellus punicus,Anaecypris punica,Pseudophoxinus punicus; Phoxinellus punicus,Anaecypris punica,matched_blockValid
+Anguilla bicolor,Anguilla bicolor pacifica,Anguilla bicolor,Anguilla bicolor pacifica,fallback_max_valids
+Aphyosemion celiae,Aphyosemion celiae winifredae,Aphyosemion celiae,Aphyosemion celiae winifredae,fallback_max_valids
+Atherina bonapartii,Atherina boyeri pontica,Atherina bonapartei; Atherina bonapartii,Atherina boyeri pontica,fallback_max_valids
+Alestes affinis,Brachyalestes affinis,Alestes affinis; Brycinus affinis,Brachyalestes affinis,matched_blockValid
+Brycinus fwaensis,Brachyalestes fwaensis,Brycinus fwaensis,Brachyalestes fwaensis,matched_blockValid
+Alestes sadleri,Brachyalestes sadleri,Alestes sadleri; Brycinus sadleri; Bryconalestes sadleri,Brachyalestes sadleri,matched_blockValid
+Alestes taeniurus,Brachyalestes taeniurus,Alestes taeniurus; Brycinus taeniurus,Brachyalestes taeniurus,matched_blockValid
+Cyprinus auratus,Carassius auratus 'high back crucian carp,Cyprinus auratus; Carassius carassius; Carassius auratus,Carassius auratus 'high back crucian carp,fallback_max_valids
+Cyprinus auratus,Carassius auratus grandoculis,Cyprinus auratus; Carassius carassius; Carassius auratus,Carassius auratus grandoculis,fallback_max_valids
+Cyprinus auratus,Carassius auratus red var,Cyprinus auratus; Carassius carassius; Carassius auratus,Carassius auratus red var,fallback_max_valids
+Cyprinus auratus,Carassius auratus ssp. 'Pengze,Cyprinus auratus; Carassius carassius; Carassius auratus,Carassius auratus ssp. 'Pengze,fallback_max_valids
+Cyprinus auratus,Carassius auratus ssp. 'Pingxiang,Cyprinus auratus; Carassius carassius; Carassius auratus,Carassius auratus ssp. 'Pingxiang,fallback_max_valids
+Cyprinus auratus,Carassius auratus suogu var,Cyprinus auratus; Carassius carassius; Carassius auratus,Carassius auratus suogu var,fallback_max_valids
+NA,Chrysichthys congicus,NA,Chrysichthys congicus,no_records
+Tilapia congica,Coptodon congicus,Tilapia congica,Coptodon congicus,matched_blockValid
+Tilapia nyongana,Coptodon nyonganus,Tilapia nyongana; Coptodon nyongana,Coptodon nyonganus,matched_blockValid
+Marcusenius grahami,Cyphomyrus grahami,Hippopotamyrus grahami; Marcusenius grahami,Cyphomyrus grahami,matched_blockValid
+Cyprinus carpio,Cyprinus carpio 'Guilin,Cyprinus carpio,Cyprinus carpio 'Guilin,fallback_max_valids
+Cyprinus carpio,Cyprinus carpio 'Songpu carp,Cyprinus carpio,Cyprinus carpio 'Songpu carp,fallback_max_valids
+Cyprinus carpio,Cyprinus carpio 'Songpu mirror carp,Cyprinus carpio,Cyprinus carpio 'Songpu mirror carp,fallback_max_valids
+Cyprinus carpio,Cyprinus carpio 'Ying hybrid,Cyprinus carpio,Cyprinus carpio 'Ying hybrid,fallback_max_valids
+Cyprinus carpio,Cyprinus carpio 'blue var,Cyprinus carpio,Cyprinus carpio 'blue var,fallback_max_valids
+Cyprinus carpio,Cyprinus carpio 'color,Cyprinus carpio,Cyprinus carpio 'color,fallback_max_valids
+Cyprinus carpio,Cyprinus carpio 'frigid carp,Cyprinus carpio,Cyprinus carpio 'frigid carp,fallback_max_valids
+Cyprinus carpio,Cyprinus carpio 'koi,Cyprinus carpio,Cyprinus carpio 'koi,fallback_max_valids
+Cyprinus carpio,Cyprinus carpio 'longfin,Cyprinus carpio,Cyprinus carpio 'longfin,fallback_max_valids
+Cyprinus carpio,Cyprinus carpio 'wananensis,Cyprinus carpio,Cyprinus carpio 'wananensis,fallback_max_valids
+Cyprinus carpio,Cyprinus carpio 'wuyuanensis,Cyprinus carpio,Cyprinus carpio 'wuyuanensis,fallback_max_valids
+Cyprinus carpio,Cyprinus carpio 'xingguonensis,Cyprinus carpio,Cyprinus carpio 'xingguonensis,fallback_max_valids
+Cyprinus carpio,Cyprinus carpio (triploid,Cyprinus carpio,Cyprinus carpio (triploid,fallback_max_valids
+Cyprinus carpio,Cyprinus carpio haematopterus,Cyprinus carpio,Cyprinus carpio haematopterus,fallback_max_valids
+Cyprinus carpio,Cyprinus carpio nudus,Cyprinus carpio,Cyprinus carpio nudus,fallback_max_valids
+Cyprinus carpio,Cyprinus carpio var. baisenensis,Cyprinus carpio,Cyprinus carpio var. baisenensis,fallback_max_valids
+Chanda ruconius,Deveximentum ruconius,Secutor ruconius; Leiognathus ruconius; Chanda ruconius,Deveximentum ruconius,matched_blockValid
+Fundulus gardneri,Fundulopanchax gardneri nigerianus,Aphyosemion gardneri; Fundulopanchax gardneri; Fundulus gardneri,Fundulopanchax gardneri nigerianus,fallback_max_valids
+Phreatichthys andruzzii,Garra andruzzii,Phreatichthys andruzzii,Garra andruzzii,matched_blockValid
+NA,Haplochromis desfontanii,NA,Haplochromis desfontanii,no_records
+Marcusenius ansorgii,Heteromormyrus ansorgii,Hippopotamyrus ansorgii; Marcusenius ansorgii,Heteromormyrus ansorgii,matched_blockValid
+Hippopotamyrus longilateralis,Heteromormyrus longilateralis,Hippopotamyrus longilateralis,Heteromormyrus longilateralis,matched_blockValid
+Hippopotamyrus szaboi,Heteromormyrus szaboi,Hippopotamyrus szaboi,Heteromormyrus szaboi,matched_blockValid
+Brienomyrus tavernei,Heteromormyrus tavernei,Brienomyrus tavernei; Paramormyrops tavernei,Heteromormyrus tavernei,matched_blockValid
+NA,Iconisemion striatum,NA,Iconisemion striatum,no_records
+Paratilapia pfefferi,Jabarichromis pfefferi,Gnathochromis pfefferi; Paratilapia pfefferi,Jabarichromis pfefferi,matched_blockValid
+Barbus pallaryi,Luciobarbus pallaryi figuigensis,Barbus pallaryi; Luciobarbus pallaryi,Luciobarbus pallaryi figuigensis,fallback_max_valids
+Mormyrus caballus,Mormyrus caballus bumbanus,Mormyrus caballus,Mormyrus caballus bumbanus,fallback_max_valids
+Salmo mykiss,Oncorhynchus mykiss aguabonita,Oncorhynchus mykiss; Salmo mykiss; Parasalmo mykiss,Oncorhynchus mykiss aguabonita,fallback_max_valids
+Salmo mykiss,Oncorhynchus mykiss aquilarum,Oncorhynchus mykiss; Salmo mykiss; Parasalmo mykiss,Oncorhynchus mykiss aquilarum,fallback_max_valids
+Salmo mykiss,Oncorhynchus mykiss gairdneri,Oncorhynchus mykiss; Salmo mykiss; Parasalmo mykiss,Oncorhynchus mykiss gairdneri,fallback_max_valids
+Salmo mykiss,Oncorhynchus mykiss irideus,Oncorhynchus mykiss; Salmo mykiss; Parasalmo mykiss,Oncorhynchus mykiss irideus,fallback_max_valids
+Salmo mykiss,Oncorhynchus mykiss nelsoni,Oncorhynchus mykiss; Salmo mykiss; Parasalmo mykiss,Oncorhynchus mykiss nelsoni,fallback_max_valids
+Salmo mykiss,Oncorhynchus mykiss newberrii,Oncorhynchus mykiss; Salmo mykiss; Parasalmo mykiss,Oncorhynchus mykiss newberrii,fallback_max_valids
+Eleotris porocephala,Ophiocara porocephalum,Ophiocara porocephala; Eleotris porocephala,Ophiocara porocephalum,matched_blockValid
+Tilapia urolepis,Oreochromis urolepis hornorum,Tilapia urolepis; Oreochromis urolepis,Oreochromis urolepis hornorum,fallback_max_valids
+Petrochromis trewavasae,Petrochromis trewavasae ephippium,Petrochromis trewavasae,Petrochromis trewavasae ephippium,fallback_max_valids
+Polypterus bichir,Polypterus bichir lapradei,Polypterus bichir,Polypterus bichir lapradei,fallback_max_valids
+Polypterus endlicherii,Polypterus endlicherii congicus,Polypterus endlicherii,Polypterus endlicherii congicus,fallback_max_valids
+Polypterus palmas,Polypterus palmas buettikoferi,Polypterus palmas,Polypterus palmas buettikoferi,fallback_max_valids
+Polypterus palmas,Polypterus palmas polli,Polypterus palmas,Polypterus palmas polli,fallback_max_valids
+Petersius barnardi,Rhabdalestes barnardi,Hemigrammopetersius barnardi; Petersius barnardi,Rhabdalestes barnardi,matched_blockValid
+Hemichromis bimaculatus,Rubricatochromis bimaculatus,Hemichromis bimaculatus,Rubricatochromis bimaculatus,matched_blockValid
+Paratilapia cerasogaster,Rubricatochromis cerasogaster,Hemichromis cerasogaster; Paratilapia cerasogaster,Rubricatochromis cerasogaster,matched_blockValid
+Hemichromis guttatus,Rubricatochromis guttatus,Hemichromis guttatus,Rubricatochromis guttatus,matched_blockValid
+Hemichromis letourneuxi,Rubricatochromis letourneuxi,Hemichromis letourneuxi,Rubricatochromis letourneuxi,matched_blockValid
+Hemichromis lifalili,Rubricatochromis lifalili,Hemichromis lifalili,Rubricatochromis lifalili,matched_blockValid
+Hemichromis stellifer,Rubricatochromis stellifer,Hemichromis stellifer,Rubricatochromis stellifer,matched_blockValid
+Cyprinus rutilus,Rutilus rutilus caspicus,Leuciscus rutilus; Rutilus rutilus; Cyprinus rutilus,Rutilus rutilus caspicus,fallback_max_valids
+Cyprinus rutilus,Rutilus rutilus lacustris,Leuciscus rutilus; Rutilus rutilus; Cyprinus rutilus,Rutilus rutilus lacustris,fallback_max_valids
+Blennius fluviatilis,Salariopsis fluviatilis,Blennius fluviatilis; Salaria fluviatilis; Ichthyocoris fluviatilis,Salariopsis fluviatilis,matched_blockValid
+Salmo fario,Salmo trutta fario,Salmo fario,Salmo trutta fario,fallback_max_valids
+Salmo fario,Salmo trutta lacustris,Salmo fario,Salmo trutta lacustris,fallback_max_valids
+Salmo fario,Salmo trutta oxianus,Salmo fario,Salmo trutta oxianus,fallback_max_valids
+Salmo alpinus,Salvelinus alpinus erythrinus,Salvelinus alpinus; Salmo alpinus,Salvelinus alpinus erythrinus,fallback_max_valids
+Salmo alpinus,Salvelinus alpinus oquassa,Salvelinus alpinus; Salmo alpinus,Salvelinus alpinus oquassa,fallback_max_valids
+Sparus galilaeus,Sarotherodon galilaeus boulengeri,Tilapia galilaea; Sarotherodon galilaeus; Sparus galilaeus,Sarotherodon galilaeus boulengeri,fallback_max_valids
+Sparus galilaeus,Sarotherodon galilaeus sanagaensis,Tilapia galilaea; Sarotherodon galilaeus; Sparus galilaeus,Sarotherodon galilaeus sanagaensis,fallback_max_valids
+Barbus rubripinnis,Systomus rubripinnis,Barbus rubripinnis,Systomus rubripinnis,matched_blockValid
+Cyprinus putitora,Tor putitora,Cyprinus putitora,Tor putitora,matched_blockValid
+Leuciscus callensis,Tropidophoxinellus callensis,Pseudophoxinus callensis; Leuciscus callensis,Tropidophoxinellus callensis,matched_blockValid

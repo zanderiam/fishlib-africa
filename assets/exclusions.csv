@@ -2,7 +2,7 @@ source,dbid,taxon,action,note
 GENBANK,51339761,Carassius carassius,REMOVE,Paper states fish is a goldfish (C. auratus)
 GENBANK,52221010,Carassius carassius,REMOVE,Paper states fish is a goldfish (C. auratus)
 GENBANK,1197011479,Carassius carassius,REMOVE,No information that this is not a goldfish
-GENBANK,1314948533,Ameiurus nebulosus,REMOVE,"This is a RefSeq of GenBank MF621731.1, record was removed at the submitters request because the source organism cannot be confirmed."
+"GENBANK,1314948533,Ameiurus nebulosus,REMOVE,""This is a RefSeq of GenBank MF621731.1, record was removed at the submitters request because the source organism cannot be confirmed."""
 GENBANK,33317222,Carcharodon carcharias,REMOVE,Nested in a cluster of Cetorhinus maximus
 GENBANK,460283151,Sparus aurata,REMOVE,Nested in a cluster of Trachurus trachurus
 GENBANK,460283153,Sparus aurata,REMOVE,Nested in a cluster of Trachurus trachurus
@@ -48,8 +48,8 @@ GENBANK,237847770,Isurus oxyrhinchus,REMOVE,Bad quality sequence?
 GENBANK,296747869,Galeus melastomus,REMOVE,Nested in a cluster of Scyliorhinus canicula
 GENBANK,251821476,Squalus acanthias,REMOVE,Nested in a cluster of Scyliorhinus canicula
 GENBANK,325556673,Scyliorhinus stellaris,REMOVE,Nested in a cluster of Scyliorhinus canicula
-BOLD,BIM140-13.COI-5P,"Raja miraletus""",REMOVE,Nested in a cluster of Torpedo marmorata
-BOLD,SFM021-13.COI-5P,"Raja undulata""",REMOVE,Nested in a cluster of Raja clavata
+"BOLD,BIM140-13.COI-5P,""Raja miraletus"""""",REMOVE,Nested in a cluster of Torpedo marmorata"
+"BOLD,SFM021-13.COI-5P,""Raja undulata"""""",REMOVE,Nested in a cluster of Raja clavata"
 GENBANK,1485347586,Raja montagui,REMOVE,Nested in a cluster of Raja miraletus
 GENBANK,1485347584,Raja montagui,REMOVE,Nested in a cluster of Raja miraletus
 GENBANK,1485347588,Raja montagui,REMOVE,Nested in a cluster of Raja miraletus
@@ -80,7 +80,7 @@ BOLD,BIM403-15.COI-5P,Hippocampus guttulatus,REMOVE,Nested in a cluster of H. hi
 BOLD,OCARH786-12.COI-5P,Tilapia zillii,REMOVE,Nested in a cluster of Oreochromis niloticus
 GENBANK,822475866,Tilapia zillii,REMOVE,Nested in a cluster of Oreochromis niloticus
 BOLD,GLF036-13.COI-5P,Scopelogadus beanii,REMOVE,Nested in a cluster of Sigmops bathyphilus
-BOLD,UKFBI261-08.COI-5P,Pleuronectes platessa,REMOVE,"Bad sequence, long branch groups with Stomias"
+"BOLD,UKFBI261-08.COI-5P,Pleuronectes platessa,REMOVE,""Bad sequence, long branch groups with Stomias"""
 GENBANK,1373661465,Solea solea,REMOVE,Nested in a cluster of Gadus morhua
 GENBANK,786321816,Gaidropsarus mediterraneus,REMOVE,Nested in a cluster of G. macrophthalmus
 GENBANK,392974018,Gaidropsarus mediterraneus,REMOVE,Nested in a cluster of G. macrophthalmus
@@ -102,12 +102,12 @@ GENBANK,1084353076,Pomatoschistus minutus,REMOVE,Nested in a cluster of P. micro
 GENBANK,1084353074,Pomatoschistus minutus,REMOVE,Nested in a cluster of P. microps (see Oliveira et al)
 GENBANK,1084353070,Pomatoschistus minutus,REMOVE,Nested in a cluster of P. microps (see Oliveira et al)
 GENBANK,1084353072,Pomatoschistus minutus,REMOVE,Nested in a cluster of P. microps (see Oliveira et al)
-GENBANK,868611663,Carassius carassius,REMOVE,"Nested in C. auratus, no evidence it isnt a goldfish"
-GENBANK,868612226,Carassius carassius,REMOVE,"Nested in C. auratus, no evidence it isnt a goldfish"
-GENBANK,868612223,Carassius carassius,REMOVE,"Nested in C. auratus, no evidence it isnt a goldfish"
-GENBANK,868612220,Carassius carassius,REMOVE,"Nested in C. auratus, no evidence it isnt a goldfish"
-GENBANK,670608868,Carassius carassius,REMOVE,"Nested in C. auratus, no evidence it isnt a goldfish"
-GENBANK,868611659,Carassius carassius,REMOVE,"Nested in C. auratus, no evidence it isnt a goldfish"
+"GENBANK,868611663,Carassius carassius,REMOVE,""Nested in C. auratus, no evidence it isnt a goldfish"""
+"GENBANK,868612226,Carassius carassius,REMOVE,""Nested in C. auratus, no evidence it isnt a goldfish"""
+"GENBANK,868612223,Carassius carassius,REMOVE,""Nested in C. auratus, no evidence it isnt a goldfish"""
+"GENBANK,868612220,Carassius carassius,REMOVE,""Nested in C. auratus, no evidence it isnt a goldfish"""
+"GENBANK,670608868,Carassius carassius,REMOVE,""Nested in C. auratus, no evidence it isnt a goldfish"""
+"GENBANK,868611659,Carassius carassius,REMOVE,""Nested in C. auratus, no evidence it isnt a goldfish"""
 BOLD,COFPL053-15.COI-5P,Mugil cephalus,REMOVE,Wacky sequence very different from everything
 GENBANK,307342424,Pagellus erythrinus,REMOVE,Nested in a cluster of Pagrus pagrus
 GENBANK,307342086,Pagellus erythrinus,REMOVE,Nested in a cluster of Pagrus pagrus
@@ -135,8 +135,8 @@ GENBANK,403330369,Rutilus rutilus,REMOVE,Unverified sequence
 GENBANK,403330372,Rutilus rutilus,REMOVE,Unverified sequence
 GENBANK,325556701,Leucoraja naevus,REMOVE,Clusters with Raja clavata
 BOLD,GLF192-14.COI-5P,Scopelogadus beanii,REMOVE,Nested in a cluster of Sigmops bathyphilus
-GENBANK,933500755,Regalecus glesne,REMOVE,"Clusters with blennies, matches Salaria in Blast"
-GENBANK,868610871,Carassius carassius,REMOVE,"Nested in C. auratus, no evidence it isnt a goldfish"
+"GENBANK,933500755,Regalecus glesne,REMOVE,""Clusters with blennies, matches Salaria in Blast"""
+"GENBANK,868610871,Carassius carassius,REMOVE,""Nested in C. auratus, no evidence it isnt a goldfish"""
 GENBANK,651209284,Brama brama,REMOVE,Nested in Abramis brama
 GENBANK,651209285,Brama brama,REMOVE,Nested in Abramis brama
 GENBANK,223558406,Cyprinus carpio,REMOVE,Nested in Rutilus
@@ -145,7 +145,7 @@ GENBANK,223558408,Cyprinus carpio,REMOVE,Nested in Rutilus
 GENBANK,6522876,Scardinius erythrophthalmus,REMOVE,Nested in Rutilus
 GENBANK,544582215,Salmo trutta,REMOVE,Nested in Onchorhynchus
 GENBANK,291165165,Pollachius virens,REMOVE,Nested in Gadus morhua
-GENBANK,307344109,Solea solea,REMOVE,"Crappy sequence, nested in Scophthalmus"
+"GENBANK,307344109,Solea solea,REMOVE,""Crappy sequence, nested in Scophthalmus"""
 GENBANK,76363944,Lepidorhombus whiffiagonis,REMOVE,Nested in Trachurus
 GENBANK,22597041,Cichlasoma bimaculatum,REMOVE,Nested in Labrus mixtus
 GENBANK,289546423,Clupea harengus,REMOVE,Nested in Onchorhynchus
@@ -167,11 +167,11 @@ GENBANK,372490151,Abramis brama,REMOVE,Nested in a cluster of Rutilus rutilus
 GENBANK,223558427,Cyprinus carpio,REMOVE,Nested in a cluster of Rutilus rutilus
 GENBANK,223558429,Cyprinus carpio,REMOVE,Nested in a cluster of Rutilus rutilus
 GENBANK,1376159593,Conger conger,REMOVE,Nested in a cluster of Ammodytes
-BOLD,HNDSA001-19.COI-5P,Anguilla anguilla,REMOVE,"Not a COI sequence, bacterial contamination"
+"BOLD,HNDSA001-19.COI-5P,Anguilla anguilla,REMOVE,""Not a COI sequence, bacterial contamination"""
 BOLD,UEZPQ003-14.COI-5P,Lethrinus nebulosus,REMOVE,Low quality sequence
 GENBANK,1013181134,Thunnus albacares,REMOVE,Low quality sequence
 GENBANK,1013181152,Thunnus thynnus,REMOVE,Low quality sequence
-GENBANK,33317232,Isurus oxyrinchus,REMOVE,"Very close to Prionace, not Isurus"
+"GENBANK,33317232,Isurus oxyrinchus,REMOVE,""Very close to Prionace, not Isurus"""
 GENBANK,501794361,Liza ramado,REMOVE,Nested in a cluster of Mugil cephalus
 GENBANK,1605372396,Cyprinus carpio,REMOVE,Nested in a cluster of Carassius auratus
 BOLD,AJS148-19.COI-5P,Oreochromis niloticus,REMOVE,Nested in a cluster of Gadus morhua
@@ -191,13 +191,13 @@ GENBANK,1565944285,Barbus barbus,REMOVE,Nested in a cluster of Squalius cephalus
 BOLD,AJS290-19.COI-5P,Oreochromis niloticus,REMOVE,Nested in a cluster of Gadus morhua
 GENBANK,261343168,Acipenser ruthenus,REMOVE,Nowhere near Acipenser
 BOLD,FSHN231-19.COI-5P,Salmo trutta,REMOVE,Nested in cluster of Salmo salar
-GENBANK,339431652,Mugil cephalus,REMOVE,"Nowhere near Mugil, blasts as a Seriola"
+"GENBANK,339431652,Mugil cephalus,REMOVE,""Nowhere near Mugil, blasts as a Seriola"""
 GENBANK,961556358,Hippoglossus hippoglossus,REMOVE,Nested in Reinhardtius hippoglossoides
 GENBANK,961556360,Hippoglossus hippoglossus,REMOVE,Nested in Reinhardtius hippoglossoides
 GENBANK,961556354,Hippoglossus hippoglossus,REMOVE,Nested in Reinhardtius hippoglossoides
 GENBANK,961556356,Hippoglossus hippoglossus,REMOVE,Nested in Reinhardtius hippoglossoides
 GENBANK,874508174,Leptoclinus maculatus,REMOVE,Nested in Lumpenus lampretaeformis
-GENBANK,1815405131,Cyprinus carpio,REMOVE,"Closer to Barbus, appears to be Schizothorax"
+"GENBANK,1815405131,Cyprinus carpio,REMOVE,""Closer to Barbus, appears to be Schizothorax"""
 GENBANK,284027412,Rouleina attrita,REMOVE,Nested in Antimora
 BOLD,FSHN053-17.COI-5P,Ameiurus melas,REMOVE,Blasts as a Noturus
 GENBANK,164523705,Thunnus albacares,REMOVE,Nested in Merluccius
@@ -567,31 +567,31 @@ GENBANK,300828455,Neolamprologus tretocephalus,REMOVE,mislabeled at genus level
 GENBANK,224976447,Neolamprologus tretocephalus,REMOVE,mislabeled at genus level
 GENBANK,159135022,Neolamprologus tretocephalus,REMOVE,mislabeled at genus level
 GENBANK,313181837,Protopterus annectens,REMOVE,mislabeled at class level
-BOLD,AMNHI053?09.COI?5P,Tylochromis pulcher,REMOVE,mislabeled at class level
+BOLD,AMNHI053-09.COI-5P,Tylochromis pulcher,REMOVE,mislabeled at class level
 GENBANK,2030286401,Tylochromis pulcher,REMOVE,mislabeled at class level
-BOLD,DSMIS001?07.COI?5P,Afronandus sheljuzhkoi,REMOVE,mislabeled at order level
-BOLD,MPUMA080?14.COI?5P,Labeobarbus polylepis,REMOVE,mislabeled at order level
-BOLD,HVDB060?09.COI?5P,Labeobarbus polylepis,REMOVE,mislabeled at order level
+BOLD,DSMIS001-07.COI-5P,Afronandus sheljuzhkoi,REMOVE,mislabeled at order level
+BOLD,MPUMA080-14.COI-5P,Labeobarbus polylepis,REMOVE,mislabeled at order level
+BOLD,HVDB060-09.COI-5P,Labeobarbus polylepis,REMOVE,mislabeled at order level
 GENBANK,1443146299,Heterotis niloticus,REMOVE,mislabeled at order level
-BOLD,AMNHI782?12.COI?5P,Marcusenius monteiri,REMOVE,mislabeled at order level
-BOLD,DADB006?12.COI?5P,Gerres filamentosus,REMOVE,mislabeled at order level
-BOLD,ANGEN194?15.COI?5P,Gerres filamentosus,REMOVE,mislabeled at order level
-BOLD,COFPL067?16.COI?5P,Upeneus guttatus,REMOVE,mislabeled at order level
-BOLD,ANGEN192?15.COI?5P,Chanos chanos,REMOVE,mislabeled at order level
-BOLD,DMAC092?07.COI?5P,Enteromius nyanzae,REMOVE,mislabeled at family level
-BOLD,DOFKA536?08.COI?5P,Enteromius nyanzae,REMOVE,mislabeled at family level
+BOLD,AMNHI782-12.COI-5P,Marcusenius monteiri,REMOVE,mislabeled at order level
+BOLD,DADB006-12.COI-5P,Gerres filamentosus,REMOVE,mislabeled at order level
+BOLD,ANGEN194-15.COI-5P,Gerres filamentosus,REMOVE,mislabeled at order level
+BOLD,COFPL067-16.COI-5P,Upeneus guttatus,REMOVE,mislabeled at order level
+BOLD,ANGEN192-15.COI-5P,Chanos chanos,REMOVE,mislabeled at order level
+BOLD,DMAC092-07.COI-5P,Enteromius nyanzae,REMOVE,mislabeled at family level
+BOLD,DOFKA536-08.COI-5P,Enteromius nyanzae,REMOVE,mislabeled at family level
 GENBANK,873292574,Phago intermedius,REMOVE,mislabeled at family level
-BOLD,AMNHI620?12.COI?5P,Phago boulengeri,REMOVE,mislabeled at family level
+BOLD,AMNHI620-12.COI-5P,Phago boulengeri,REMOVE,mislabeled at family level
 GENBANK,589264419,Lophiobagrus brevispinis,REMOVE,mislabeled at family level
-BOLD,AMNHI051?09.COI?5P,Xenocharax spilurus,REMOVE,mislabeled at family level
-BOLD,DCF371?15.COI?5P,Xenocharax spilurus,REMOVE,mislabeled at family level
-BOLD,DCF409?15.COI?5P,Xenocharax spilurus,REMOVE,mislabeled at family level
-BOLD,FIGAB101?19.COI?5P,Xenocharax spilurus,REMOVE,mislabeled at family level
-BOLD,BCOVR080?17.COI?5P,Xenocharax spilurus,REMOVE,mislabeled at family level
-BOLD,BCOVR009?17.COI?5P,Xenocharax spilurus,REMOVE,mislabeled at family level
-BOLD,BCOVR237?17.COI?5P,Xenocharax spilurus,REMOVE,mislabeled at family level
-BOLD,BCOVR167?17.COI?5P,Xenocharax spilurus,REMOVE,mislabeled at family level
-BOLD,EUFWF1925?18.COI?5P,Barbus barbus,REMOVE,mislabeled at family level
+BOLD,AMNHI051-09.COI-5P,Xenocharax spilurus,REMOVE,mislabeled at family level
+BOLD,DCF371-15.COI-5P,Xenocharax spilurus,REMOVE,mislabeled at family level
+BOLD,DCF409-15.COI-5P,Xenocharax spilurus,REMOVE,mislabeled at family level
+BOLD,FIGAB101-19.COI-5P,Xenocharax spilurus,REMOVE,mislabeled at family level
+BOLD,BCOVR080-17.COI-5P,Xenocharax spilurus,REMOVE,mislabeled at family level
+BOLD,BCOVR009-17.COI-5P,Xenocharax spilurus,REMOVE,mislabeled at family level
+BOLD,BCOVR237-17.COI-5P,Xenocharax spilurus,REMOVE,mislabeled at family level
+BOLD,BCOVR167-17.COI-5P,Xenocharax spilurus,REMOVE,mislabeled at family level
+BOLD,EUFWF1925-18.COI-5P,Barbus barbus,REMOVE,mislabeled at family level
 GENBANK,873292826,Rhabdalestes yokai,REMOVE,mislabeled at genus level
 GENBANK,1047412041,Rhabdalestes yokai,REMOVE,mislabeled at genus level
 GENBANK,2126403986,Pseudocrenilabrus philander,REMOVE,mislabeled at genus level
@@ -601,8 +601,8 @@ GENBANK,2892916025,Neolamprologus caudopunctatus,REMOVE,mislabeled at genus leve
 GENBANK,2468674619,Neolamprologus caudopunctatus,REMOVE,mislabeled at genus level
 GENBANK,1707062011,Astatoreochromis alluaudi,REMOVE,mislabeled at genus level
 GENBANK,58199117,Astatoreochromis alluaudi,REMOVE,mislabeled at genus level
-BOLD,FWAQ288?12.COI?5P,Neolamprologus brichardi,REMOVE,mislabeled at genus level
-BOLD,FWAQ289?12.COI?5P,Neolamprologus brichardi,REMOVE,mislabeled at genus level
+BOLD,FWAQ288-12.COI-5P,Neolamprologus brichardi,REMOVE,mislabeled at genus level
+BOLD,FWAQ289-12.COI-5P,Neolamprologus brichardi,REMOVE,mislabeled at genus level
 GENBANK,873293156,Clariallabes melas,REMOVE,mislabeled at genus level
 GENBANK,1047411739,Alestopetersius brichardi,REMOVE,mislabeled at genus level
 GENBANK,873292456,Raiamas salmolucius,REMOVE,mislabeled at genus level
@@ -612,19 +612,19 @@ GENBANK,873292846,Gnathonemus echidnorhynchus,REMOVE,mislabeled at genus level
 GENBANK,1508229954,Gnathonemus echidnorhynchus,REMOVE,mislabeled at genus level
 GENBANK,1508229950,Gnathonemus echidnorhynchus,REMOVE,mislabeled at genus level
 GENBANK,1586350906,Hypsopanchax jubbi,REMOVE,mislabeled at genus level
-BOLD,ZAFW150?13.COI?5P,Hypsopanchax jubbi,REMOVE,mislabeled at genus level
-BOLD,FWAQ234?12.COI?5P,Pseudocrenilabrus multicolor,REMOVE,mislabeled at genus level
-BOLD,HIPEB687?21.COI?5P,Pseudocrenilabrus multicolor,REMOVE,mislabeled at genus level
-BOLD,ZAMRI271?22.COI?5P,Raiamas moorii,REMOVE,mislabeled at genus level
-BOLD,ZAMRI302?22.COI?5P,Raiamas moorii,REMOVE,mislabeled at genus level
+BOLD,ZAFW150-13.COI-5P,Hypsopanchax jubbi,REMOVE,mislabeled at genus level
+BOLD,FWAQ234-12.COI-5P,Pseudocrenilabrus multicolor,REMOVE,mislabeled at genus level
+BOLD,HIPEB687-21.COI-5P,Pseudocrenilabrus multicolor,REMOVE,mislabeled at genus level
+BOLD,ZAMRI271-22.COI-5P,Raiamas moorii,REMOVE,mislabeled at genus level
+BOLD,ZAMRI302-22.COI-5P,Raiamas moorii,REMOVE,mislabeled at genus level
 GENBANK,2892915887,Telmatochromis vittatus,REMOVE,mislabeled at genus level
 GENBANK,1033121286,Opsaridium tweddleorum,REMOVE,mislabeled at genus level
 GENBANK,1033121308,Opsaridium tweddleorum,REMOVE,mislabeled at genus level
 GENBANK,1033121354,Opsaridium tweddleorum,REMOVE,mislabeled at genus level
 GENBANK,1033121256,Opsaridium tweddleorum,REMOVE,mislabeled at genus level
-BOLD,AMNHI691?12.COI?5P,Ctenopoma ocellatum,REMOVE,mislabeled at genus level
-BOLD,FWAQ271?12.COI?5P,Neolamprologus cylindricus,REMOVE,mislabeled at genus level
-BOLD,BCOVR655?17.COI?5P,Myomyrus macrodon,REMOVE,mislabeled at genus level
+BOLD,AMNHI691-12.COI-5P,Ctenopoma ocellatum,REMOVE,mislabeled at genus level
+BOLD,FWAQ271-12.COI-5P,Neolamprologus cylindricus,REMOVE,mislabeled at genus level
+BOLD,BCOVR655-17.COI-5P,Myomyrus macrodon,REMOVE,mislabeled at genus level
 GENBANK,817640399,Pseudosimochromis babaulti,REMOVE,mislabeled at genus level
 GENBANK,817640414,Pseudosimochromis babaulti,REMOVE,mislabeled at genus level
 GENBANK,817640405,Pseudosimochromis babaulti,REMOVE,mislabeled at genus level
@@ -635,3 +635,105 @@ GENBANK,619329176,Neolamprologus timidus,REMOVE,mislabeled at genus level
 GENBANK,2126403984,Chetia flaviventrus,REMOVE,mislabeled at genus level
 GENBANK,2245350497,Rheocles derhami,REMOVE,mislabeled at genus level
 GENBANK,37682381,Rheocles derhami,REMOVE,mislabeled at genus level
+BOLD,COFPL067-16.COI-5P,Upeneus guttatus,REMOVE,
+BOLD,COFPL065-16.COI-5P,Plotosus nkunga,REMOVE,
+GENBANK,396941982,Perca fluviatilis,REMOVE,in 12S primer but is a 16S sequence (Bylemans)
+GENBANK,1777419406,Enteromius eutaenia,REMOVE,100% query cover with a lot of fishes from different families (miya)
+GENBANK,1393832676,Gerres longirostris,REMOVE,Blasts 100% with Aprion virescens aswell (miya)
+GENBANK,1393832728,Pastinachus sephen,REMOVE,100% query cover with a lot of fishes from different families (riaz)
+BOLD,HNDS001-18.COI-5P,Anguilla marmorata,REMOVE,blasts as Massilia sp. (collinsshort)
+GENBANK,443909463,Terapon jarbua,REMOVE,blasts as Ompok bimaculatus before other sequences of Terapon jarbua (collinsshort)
+GENBANK,3063924524,Terapon puta,REMOVE,blasts as other species before Terapon puta (collinsshort)
+GENBANK,1594609891,Distichodus rostratus,REMOVE,blasts as Pseudomonas (collinsshort)
+"GENBANK,998610044,Lutjanus griseus,REMOVE,""looks suspicious but blasts alright (collinsshort, sauron)"""
+"BOLD,ISZA089-21.COI-5P,Petrocephalus longianalis,REMOVE,""blasts as Sphingomonas sp. (collinsshort, sauron)"""
+GENBANK,3004747633,Drepane punctata,REMOVE,blasts as Terapon jarbua (sauron)
+GENBANK,443909463,Terapon jarbua,REMOVE,blasts as Ompok bimaculatus (sauron)
+GENBANK,3063924524,Terapon puta,REMOVE,blasts as Zebrias regani and Aesopia cornuta (sauron)
+GENBANK,2497602183,Nematalosa nasus,REMOVE,blasts as other species (sauron)
+GENBANK,399932434,Tenualosa ilisha,REMOVE,blasts as Hilsa kelee (sauron)
+GENBANK,2797107367,Synodontis rukwaensis,REMOVE,blasts as Petrocephalus sp. (sauron)
+GENBANK,300876416,Garra ornata,REMOVE,blasts as Chiloglanis sp. (sauron)
+GENBANK,573464251,Lutjanus argentimaculatus,REMOVE,blasts as Cheilinus trilobatus (sauron)
+GENBANK,928193535,Systomus rubripinnis,REMOVE,blasts as other species than its own (geller)
+BOLD,ISZA042-21.COI-5P,Micropterus dolomieu,REMOVE,blasts as Lepomis sp (geller)
+BOLD,AMNHI830-12.COI-5P,Citharinus gibbosus,REMOVE,blasts as Coptodon tholloni (geller)
+GENBANK,2497602091,Hilsa kelee,REMOVE,blasts as Hypselobarbus curmuca (geller)
+BOLD,ISZA062-21.COI-5P,Aplocheilichthys spilauchen,REMOVE,blasts as Sphingomonas sp. (geller)
+BOLD,AMNHI782-12.COI-5P,Marcusenius monteiri,REMOVE,blasts as Homo sapiens (geller)
+GENBANK,1227487982,Anguilla bengalensis,REMOVE,blasts as other taxa (evans-ve)
+GENBANK,1943411980,Coptodon rendalli,REMOVE,blasts as other taxa (evans-ve)
+GENBANK,1711334,Stolothrissa tanganicae,REMOVE,blasts as other taxa (evans-ve)
+GENBANK,47087970,Kuhlia rupestris,REMOVE,blasts as ither taxa (mcinnes)
+GENBANK,2152031128,Netuma thalassina,REMOVE,blasts as Acanthogobius
+GENBANK,2163269461,Heteromormyrus longilateralis,REMOVE,blasts as other taxa
+GENBANK,2206988611,Chrysichthys auratus,REMOVE,blasts as other taxa
+GENBANK,1943412006,Clarias gariepinus,REMOVE,blasts as other taxa
+GENBANK,47087970,Kuhlia rupestris,REMOVE,blasts as other taxa and 28S
+GENBANK,50813001,Morone saxatilis,REMOVE,blasts as chrysops
+GENBANK,363710205,Muraenesox cinereus,REMOVE,blasts as other taxa
+BOLD,FOAO1623-19.COI-5P,Gymnothorax meleagris,REMOVE,blasts as other taxa
+GENBANK,443909463,Terapon jarbua,REMOVE,blasts as other taxa
+GENBANK,3063924524,Terapon puta,REMOVE,blasts as other taxa
+BOLD,AMNHI830-12.COI-5P,Citharinus gibbosus,REMOVE,blasts as other taxa
+GENBANK,1594609891,Distichodus rostratus,REMOVE,blasts as other taxa
+GENBANK,2126403982,Oreochromis mossambicus,REMOVE,blasts as other taxa
+GENBANK,2497602091,Hilsa kelee,REMOVE,blasts as other taxa
+GENBANK,2497602181,Nematalosa nasus,REMOVE,blasts as other taxa
+GENBANK,399932434,Tenualosa ilisha,REMOVE,blasts as other taxa
+GENBANK,2126682473,Enteromius paludinosus,REMOVE,blasts as other taxa
+GENBANK,1635701987,Enteromius rouxi,REMOVE,blasts as other taxa
+BOLD,KFISH023-10.COI-5P,Labeobarbus altianalis,REMOVE,blasts as clarias gariepinus
+GENBANK,2126682561,Labeobarbus polylepis,REMOVE,blasts as other taxa
+GENBANK,300876310,Sanagia velifera,REMOVE,blasts as other taxa
+GENBANK,2019162298,Mylopharyngodon piceus,REMOVE,blasts as Salmo salar
+BOLD,ISZA062-21.COI-5P,Aplocheilichthys spilauchen,REMOVE,blasts as other taxa
+GENBANK,998610044,Lutjanus griseus,REMOVE,blasts as other taxa
+GENBANK,2936264559,Oligolepis acutipennis,REMOVE,blasts as ptereoletris microlepis
+GENBANK,2751155980,Pomatoschistus marmoratus,REMOVE,blasts as p. bathi
+GENBANK,2457526390,Planiliza subviridis,REMOVE,blasts as p. tade
+GENBANK,1707062158,Cyphomyrus petherici,REMOVE,blasts as other taxa
+BOLD,AMNHI782-12.COI-5P,Marcusenius monteiri,REMOVE,>1508230320 Mormyrops anguilloides
+GENBANK,2200579160,Mormyrops breviceps,REMOVE,blasts as other taxa
+GENBANK,1508230340,Myomyrus macrodon,REMOVE,blasts as other taxa
+BOLD,ISZA089-21.COI-5P,Petrocephalus longianalis,REMOVE,blasts as other taxa
+GENBANK,58199053,Polycentropsis abbreviata,REMOVE,blasts as other taxa
+BOLD,AMNHI512-12.COI-5P,Leptoglanis xenognathus,REMOVE,blasts as other taxa
+GENBANK,2126682367,Zaireichthys monomotapa,REMOVE,other taxa
+GENBANK,2152031128,Netuma thalassina,REMOVE,other taxa
+GENBANK,1594609881,Clarias gabonensis,REMOVE,blasts as other taxa
+GENBANK,1594609881,Clarias gabonensis,REMOVE,blasts as pseudomonas
+GENBANK,2126682387,Clarias gariepinus,REMOVE,blasts as chiloglanis
+GENBANK,2497601947,Clarias gariepinus,REMOVE,blasts as Ctenopharyngodon idella
+BOLD,BIFB374-13.COI-5P,Clarias gariepinus,REMOVE,blasts as Schismatogobius marmoratus
+GENBANK,1047412799,Chrysichthys sharpii,REMOVE,blasts as Cyphomyrus psittacus
+BOLD,AMNHI503-12.COI-5P,Synodontis alberti,REMOVE,blasts as other taxa
+GENBANK,2797107367,Synodontis rukwaensis,REMOVE,blasts as Petrocephalus
+GENBANK,928193535,Systomus rubripinnis,REMOVE,blasts as Enteromius
+BOLD,HNDS001-18.COI-5P,Anguilla marmorata,REMOVE,blasts as other taxa
+GENBANK,363710205,Muraenesox cinereus,REMOVE,blasts as Johnius sp
+GENBANK,1594609891,Distichodus rostratus,REMOVE,blasts as Pseudomonas
+GENBANK,313181833,Protopterus annectens,REMOVE,blasts as Parachanna africana
+GENBANK,3004747633,Drepane punctata,REMOVE,does not blast
+BOLD,AMNHI516-12.COI-5P,Microctenopoma nanum,REMOVE,blasts as Enteromius
+GENBANK,2249902631,Lates niloticus,REMOVE,blasts as Cynoscion
+BOLD,ISZA042-21.COI-5P,Micropterus dolomieu,REMOVE,blasts a Lepomis
+BOLD,CBPM217-11.COI-5P,Micropterus salmoides,REMOVE,Blasts as Cyprinodon
+GENBANK,3004672640,Terapon theraps,REMOVE,blasts as Terapon jarbua
+BOLD,HVDBF750-12.COI-5P,Brycinus lateralis,REMOVE,blasts as Enteromius
+GENBANK,1047411737,Micralestes humilis,REMOVE,blasts as Lamprologus
+GENBANK,1594609891,Distichodus rostratus,REMOVE,>1699468496 Coilia dussumieri
+BOLD,KFISH071-10.COI-5P,Enteromius neumayeri,REMOVE,blasts as Clarias camerunensis
+BOLD,KFISH171-10.COI-5P,Enteromius neumayeri,REMOVE,>2126682473 Enteromius paludinosus
+BOLD,KFISH023-10.COI-5P,Labeobarbus altianalis,REMOVE,blasts as Clarias gariepinus
+GENBANK,2126682561,Labeobarbus polylepis,REMOVE,blasts as other taxa
+GENBANK,2497601973,Ctenopharyngodon idella,REMOVE,blasts as Devario
+BOLD,HVDBF716-12.COI-5P,Ctenopharyngodon idella,REMOVE,>2497602105 Hypophthalmichthys nobilis
+GENBANK,2219517759,Gambusia affinis,REMOVE,Blasts as Poecilia
+GENBANK,573464251,Lutjanus argentimaculatus,REMOVE,blasts as Cheilinus trilobatus
+GENBANK,998610044,Lutjanus griseus,REMOVE,>2235330883 Butis koilomatodon
+GENBANK,2936264559,Oligolepis acutipennis,REMOVE,blasts as Ptereleotris microlepis
+BOLD,AMNHI782-12.COI-5P,Marcusenius monteiri,REMOVE,blasts as Homo sapiens
+BOLD,UKFBJ878-08.COI-5P,Bagrus docmak,REMOVE,blasts as Labeobarbus
+GENBANK,1594609881,Clarias gabonensis,REMOVE,>ISZA055-21.COI-5P Malapterurus beninensis
+BOLD,AMNHI503-12.COI-5P,Synodontis alberti,REMOVE,blasts as Hemichromis
