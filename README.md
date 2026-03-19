@@ -6,7 +6,7 @@ Based the original meta-fish-lib pipeline developed by: Collins, R.A., Trauzzi, 
 
 
 
-This repository hosts a comprehensive multi-locus mitochondrial DNA reference library dataset for freshwater fish species of Africa, derived from the [NCBI GenBank](https://www.ncbi.nlm.nih.gov/nucleotide) and [Barcode of Life BOLD](http://www.boldsystems.org/index.php) databases. The dataset includes freshwater species, and can be employed in a variety of applications. e.g. DNA barcoding of human food products using full COI barcodes, to metabarcoding of gut or environmental samples using fragments of 12S. The library will be updated with each new GenBank release. Both native and introduced African freshwater fish species are included. A species coverage report for all primer sets can be found at [assets/reports-tables.md](assets/reports-tables.md). This African reference library is curated and ready-to-use, but the code provided here can easily generate a new reference library for a different location (see [FAQ](#FAQ)).
+This repository hosts a comprehensive multi-locus mitochondrial DNA reference library dataset for freshwater fish species of Africa, derived from the [NCBI GenBank](https://www.ncbi.nlm.nih.gov/nucleotide) and [Barcode of Life BOLD](http://www.boldsystems.org/index.php) databases. The dataset includes freshwater species, and can be employed in a variety of applications. Both native and introduced African freshwater fish species are included. A species coverage report for all primer sets can be found at [assets/reports-tables.md](assets/reports-tables.md). This African reference library is curated and ready-to-use, but the code provided here can easily generate a new reference library for a different location (see [FAQ](#FAQ)).
 
 In addition to providing quality controlled and curated fish references, this reference library has several unique features that make it useful to the wider DNA barcoding and DNA metabarcoding communities:
 
@@ -21,54 +21,6 @@ In addition to providing quality controlled and curated fish references, this re
 
 
 
-### TL;DR (give me the data)
-
-If you require simply the reference library for immediate use, it can be downloaded directly using the R code below, and converted into FASTA and CSV formats for any of the available primer sets in Table 1. I will endeavour to keep up-to-date with GenBank, but if hasn't been updated, email me.
-
-##### Retrieve latest reference library:
-
-```r
-### START A FRESH R SESSION ###
-
-# load packages (install if required)
-library("tidyverse")
-library("ape")
-
-# load REMOTE references and cleaning scripts (requires internet connection)
-source("https://raw.githubusercontent.com/genner-lab/meta-fish-lib/main/scripts/references-load-remote.R")
-source("https://raw.githubusercontent.com/genner-lab/meta-fish-lib/main/scripts/references-clean.R")
-
-# subset reference library table by metabarcode fragment (primer set) from the following options:
-print(tibble(metabarcodes=c("coi.lerayxt","coi.ward","12s.miya","12s.riaz","12s.valentini","12s.taberlet","16s.berry","cytb.minamoto")))
-# change 'metabarcode' argument as appropriate:
-reflib.sub <- subset_references(df=reflib.cleaned, metabarcode="12s.miya")
-
-# [OPTIONAL] taxonomically dereplicate and filter on sequence length
-# 'proplen=0.5' removes sequences shorter than 50% of median sequence length
-# 'proplen=0' retains all sequences
-reflib.sub <- derep_filter(df=reflib.sub, derep=TRUE, proplen=0.5)
-
-# write out reference library in various formats to current working directory
-# currently supported formats are: [1] sintax, [2] dada2 (taxonomy), [3] dada2 (species), [4] Qiime2 (fasta and taxonomy), and [5] plain dbid (GenBank or BOLD database identifiers)
-write_references_fasta(df=reflib.sub)
-```
-
-Particular attention should be paid to cleaning steps in `scripts/references-clean.R`. Sequences flagged as unreliable (using phylogenetic quality control) are listed in `assets/exclusions.csv` and automatically excluded, while sequences flagged by NCBI as "unverified" are also removed. Taxonomic changes are also made, automatically via validating names against FishBase, and also a custom taxonomic changes file `assets/taxonomy-changes.csv`. Here, *Cottus perifretum* is relabelled as *Cottus gobio*, *Atherina presbyter* relabelled as *Atherina boyeri*, and *Pungitius laevis* relabelled as *Pungitius pungitius*. Where are changes are made, both the original GenBank names and the validated FishBase names are provided (see Table 2). It is IMPORTANT to run this cleaning step before the reference library is used.
-
-**Table 1: Available primer sets**
-
-Study | Official name | Nickname | Locus
------ | ----- | ----- | -----
-[Miya et al. (2015)](https://doi.org/10.1098/rsos.150088) | MiFish U/E | 12s.miya | 12S
-[Taberlet et al. (2018)](https://doi.org/10.1093/oso/9780198767220.001.0001) | Tele02 | 12s.taberlet | 12S
-[Taberlet et al. (2018)](https://doi.org/10.1093/oso/9780198767220.001.0001) | Elas02 | 12s.miya | 12S
-[Valentini et al. (2016)](https://doi.org/10.1111/mec.13428) | L1848/H1913 | 12s.valentini | 12S
-[Riaz et al. (2011)](https://doi.org/10.1093/nar/gkr732) | 12S-V5 | 12s.riaz | 12S
-[Leray et al. (2013)](https://doi.org/10.1186/1742-9994-10-34) | mlCOIintF/jgHCO2198 | coi.lerayxt | COI
-[Ward et al. (2005)](https://doi.org/10.1098/rstb.2005.1716) | FishF1/R1 | coi.ward | COI
-[Berry et al. (2017)](https://doi.org/10.1002/ece3.3123) | Fish16sF/D | 16s.berry | 16S
-[Kitano et al. (2007)](https://doi.org/10.1007/s00414-006-0113-y) | 	L2513/H2714 | 16s.kitano | 16S
-[Minamoto et al. (2012)](https://doi.org/10.1007/s10201-011-0362-4) | L14912-CYB | cytb.minamoto | cytb
 
 ### Create/update the reference library manually
 
